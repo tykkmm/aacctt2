@@ -46,7 +46,7 @@ os.makedirs("./downloads", exist_ok=True)
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nPress /link to download single link\nPress /ytdlp to know video info.\nPress /aio to download url.\n\nBot made by ACE")
+    editable = await m.reply_text("Hello im txt file downloader\nPress /pyro to download links listed in a txt file in the format **Name:link**\n\nPress /link to download single link\nPress /ytdlp to know video info.\nPress /aio to download url.\n\nBot made by  𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳")
 #testing topranker
 # @bot.on_message(filters.command(["top"])& ~filters.edited)
 # async def upload(bot: Client, m: Message):
@@ -75,7 +75,7 @@ async def upload(bot: Client, m: Message):
     Show = f"**Downloading:-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
     prog = await m.reply_text(Show)
     
-    cc = f'>> **Name :** {name}'
+    cc = f'>> **File Name  :** {name}'
     
     
     if "youtu" in url:
@@ -315,7 +315,7 @@ async def account_login(bot: Client, m: Message):
 
             Show = f"**Downloading:-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
             prog = await m.reply_text(Show)
-            cc = f'**Name :** {name}\n\n» **Title :** {raw_text0}\n» **Index :** {count}'
+            cc = f'**File Name  :** {name}\n\n» **Batch Name  :** {raw_text0}\n» **Files Downloaded  :** {count}'
             
             
             if "youtu" in url:
