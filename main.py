@@ -315,7 +315,7 @@ async def account_login(bot: Client, m: Message):
 
             Show = f"**Downloading:-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
             prog = await m.reply_text(Show)
-            cc = f'**File Name  :** {name}\n\n>> **Batch Name  :** {raw_text0}\n>> **Index  :** {count}'
+            cc = f'**File Name>>** {name}\n\n **Batch Name>>** {raw_text0}\n **Index>>** {count}'
             
             
             if "youtu" in url:
