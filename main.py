@@ -315,7 +315,7 @@ async def account_login(bot: Client, m: Message):
 
             Show = f"**Downloading Using Bot Of REXO :-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
             prog = await m.reply_text(Show)
-            cc = f'**>>File No :** {count}\n\n **>>Video Name :** {name}\n\n **>>Batch Name :** {raw_text0}\n\n **Downloaded By :** REXODAS'
+            cc = f'**>>File No :** {count}\n\n **>>Video Name :** {name}\n\n **>>Batch Name :** {raw_text0}\n\n **Downloaded By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳 '
             
             
             if "youtu" in url:
@@ -433,9 +433,9 @@ async def account_login(bot: Client, m: Message):
                         reply = await m.reply_text(f"Uploading - ```{name}```")
                         time.sleep(1)
                         start_time = time.time()
-                        await m.reply_document(ka, caption=f'>> **File :** {name}\n>> **Title :** {raw_text0}\n\n>> **Index :** {count}')
+                        await m.reply_document(ka, caption=f' >> **File No :** {count}\n >> **File Name :** {name}\n>> **Batch Name :** {raw_text0}\n **Downloaded By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳')
                         count+=1
-                        # time.sleep(1)
+                        # time.sleep(1) 
                         await reply.delete (True)
                         time.sleep(1)
                         os.remove(ka)
@@ -452,7 +452,7 @@ async def account_login(bot: Client, m: Message):
                         reply = await m.reply_text(f"Uploading - ```{name}```")
                         time.sleep(1)
                         start_time = time.time()
-                        await m.reply_document(ka, caption=f'>> **File :** {name}\n>> **Title :** {raw_text0}\n\n>> **Index :** {count}')
+                        await m.reply_document(ka, caption=f' >> **File No :** {count}\n >> **File Name :** {name}\n>> **Batch Name :** {raw_text0}\n **Downloaded By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳
                         count+=1
                         # time.sleep(1)
                         await reply.delete (True)
