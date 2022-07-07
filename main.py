@@ -315,7 +315,7 @@ async def account_login(bot: Client, m: Message):
 
             Show = f"**Downloading Using Bot Of REXO :-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
             prog = await m.reply_text(Show)
-            cc = f'**Name »** {name}\n**Batch »** {raw_text0}\n**Index »** {str(count).zfill(3)}\n**Downloaded By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳'
+            cc = f'({str(count).zfill(3)}.){name}\n\n\n**Downloaded By :**𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳(@peromaxhd4k)'
             
             
             if "youtu" in url:
@@ -433,7 +433,7 @@ async def account_login(bot: Client, m: Message):
                         reply = await m.reply_text(f"Uploading - ```{name}```")
                         time.sleep(1)
                         start_time = time.time()
-                        await m.reply_document(ka, caption= f'**Name »** {name}\n**Batch »** {raw_text0}\n**Index »** {str(count).zfill(3)}\n**Downloaded By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳 ')
+                        await m.reply_document(ka, caption= f'({str(count).zfill(3)}.){name}\n\n\n**Downloaded By :** 𝐑𝐄𝐗𝐎𝐃𝐀𝐒 🇮🇳(@peromaxhd4k) ')
                         count+=1
                         # time.sleep(1) 
                         await reply.delete (True)
