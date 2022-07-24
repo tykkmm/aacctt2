@@ -315,7 +315,7 @@ async def account_login(bot: Client, m: Message):
 
             Show = f"**Downloading Using Bot Of REXO :-**\n\n**Name :-** ```{name}\nQuality - {raw_text2}```\n\n**Url :-** ```{url}```"
             prog = await m.reply_text(Show)
-            cc = f'{str(count).zfill(3)}.{name}.mkv**\n\n Batch:**{raw_text0}**\n\n Download By:**REXODAS 🇮🇳 (@peromaxhd4k)'
+            cc =  f'{str(count).zfill(3)}.{name}.mp4'
             
             
             if "youtu" in url:
