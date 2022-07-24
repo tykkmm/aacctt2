@@ -433,7 +433,7 @@ async def account_login(bot: Client, m: Message):
                         reply = await m.reply_text(f"Uploading - ```{name}```")
                         time.sleep(1)
                         start_time = time.time()
-                                await m.reply_document(ka, caption= f'{str(count).zfill(3)}.{name}**\n\n Batch:**{raw_text0}**\n\n Download By:**REXODAS 🇮🇳 (@peromaxhd4k)')
+                                await m.reply_document(ka, caption= f'{str(count).zfill(3)}.{name}')
                         count+=1
                         # time.sleep(1) 
                         await reply.delete (True)
